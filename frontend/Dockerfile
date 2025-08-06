@@ -23,4 +23,4 @@ RUN npm install -g serve
 EXPOSE 5173
 
 # Use the "serve" command to serve the built React app
-CMD ["serve", "-s", "build", "-l", "5173"]
+CMD ["serve", "-s", "dist", "-l", "5173"]
