@@ -15,7 +15,7 @@ services:
     container_name: maritime-frontend
     restart: always
     ports:
-      - '80:80'
+      - '5173:5173'
     depends_on:
       - python-service
     networks:
