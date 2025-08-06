@@ -145,7 +145,7 @@ class DetectionRequest(BaseModel):
 # -------------------------------------------------------------------
 # Routes
 # -------------------------------------------------------------------
-@app.post("/api/detect-vessels/", summary="Run detection and return vessel data")
+@app.post("/api/detect-vessels", summary="Run detection and return vessel data")
 async def detect_vessels(
     req: DetectionRequest,
     fastdb = Depends(lambda: app.state.mongodb)
