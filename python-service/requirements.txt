@@ -11,3 +11,6 @@ pymongo
 geopandas
 opencv-python-headless
 pyproj
+motor
+pydantic-settings
+passlib[bcrypt]
