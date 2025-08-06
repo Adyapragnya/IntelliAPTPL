@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+numpy
+matplotlib
+pillow
+shapely
+rasterio
+requests
+pymongo
+geopandas
+opencv-python-headless
+pyproj
