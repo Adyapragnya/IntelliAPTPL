@@ -412,7 +412,7 @@ const jsonString = JSON.stringify({
   geometry: selectedAOI.features[0].geometry.coordinates
 });
 
-const resp = await axios.post(`${baseURL}/api/detect-vessels/`, jsonString, {
+const resp = await axios.post(`${baseURL}/api/detect-vessels`, jsonString, {
   headers: {
     'Content-Type': 'application/json'
   }
